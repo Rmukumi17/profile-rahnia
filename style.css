@@ -1,0 +1,72 @@
+/* Write some CSS below */
+ /* Basic reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/fleur.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+    text-align:center;
+}
+.card {
+    background: #d07e95;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 45%;
+}
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-header img {
+    border-radius: 50%;
+}
+.profile-header h1 {
+    color: #ffffff;
+}
+.profile-header p {
+    color: #fcf9f9;
+    margin: 10px 0;
+}
+.profile-header a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #4A919E;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.card h2 {
+    color: #fefefe;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.card p {
+    color: #fff;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    }
+     
+    .list-inline li {
+    display: inline;
+    }
+     
+    .list-inline i {
+        font-size: 60px;
+        color: black;
+        margin: 0 5px;
+    }  
